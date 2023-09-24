@@ -80,7 +80,7 @@
         var message = messageInput.value;
 
         // Make a fetch POST request to send the message to your API endpoint
-        fetch("https://script.google.com/macros/s/AKfycbxcI1raXr6Db0t71spV19nY4cbInzFAAP2QWHG_jlQInLh_y0tHl2gRm84sILMyPfw49A/exec", {
+        fetch("https://script.google.com/macros/s/AKfycbyAl-Q-2nMZ29P-uR_W0sjXKgyvGhZDInJ7zFzr114jG5Ybz6GDYHb9wqEamGbq_enRaA/exec", {
                 method: "POST",
                 headers: {
                     "Content-Type": "text/plain"
@@ -101,7 +101,7 @@
 // Function to retrieve phone numbers
 function retrievePhoneNumbers() {
     // Make a fetch GET request to retrieve phone numbers from your API endpoint
-    fetch("https://script.google.com/macros/s/AKfycbxcI1raXr6Db0t71spV19nY4cbInzFAAP2QWHG_jlQInLh_y0tHl2gRm84sILMyPfw49A/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbyAl-Q-2nMZ29P-uR_W0sjXKgyvGhZDInJ7zFzr114jG5Ybz6GDYHb9wqEamGbq_enRaA/exec", {
         method: "GET"
     })
     .then(response => response.json())
@@ -152,7 +152,7 @@ function retrievePhoneNumbers() {
 // Function to delete a phone number
 function deletePhoneNumber(phoneNumber) {
     // Make a fetch POST request to delete the phone number
-    fetch("https://script.google.com/macros/s/AKfycbxcI1raXr6Db0t71spV19nY4cbInzFAAP2QWHG_jlQInLh_y0tHl2gRm84sILMyPfw49A/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbyAl-Q-2nMZ29P-uR_W0sjXKgyvGhZDInJ7zFzr114jG5Ybz6GDYHb9wqEamGbq_enRaA/exec", {
         method: "POST",
         headers: {
             "Content-Type": "text/plain"
@@ -184,7 +184,7 @@ retrievePhoneNumbers();
         var phoneNumber = phoneNumberInput.value;
 
         // Make a fetch POST request to add the phone number to your API endpoint
-        fetch("https://script.google.com/macros/s/AKfycbxcI1raXr6Db0t71spV19nY4cbInzFAAP2QWHG_jlQInLh_y0tHl2gRm84sILMyPfw49A/exec", {
+        fetch("https://script.google.com/macros/s/AKfycbyAl-Q-2nMZ29P-uR_W0sjXKgyvGhZDInJ7zFzr114jG5Ybz6GDYHb9wqEamGbq_enRaA/exec", {
                 method: "POST",
                 headers: {
                     "Content-Type": "text/plain"
